@@ -2,7 +2,8 @@
 
 This project demonstrates how to host a secure and globally available static website using AWS services like S3, CloudFront, and IAM policies—all deployed via AWS CDK (Infrastructure as Code).
 ### Main Architecture Diagram
-![!\[alt text\](<Architecture-Task-1 Full Implementation.drawio.png>)](<Architecture-Task-1 Full Implementation.drawio.png>)
+
+<img width="1012" height="771" alt="Architecture-Task-1 Full Implementation drawio" src="https://github.com/user-attachments/assets/40ff7d92-4568-4963-851f-7f66a6ffa149" />
 
 ## 📌 Task 1: Private S3 Static Website Hosting
 
