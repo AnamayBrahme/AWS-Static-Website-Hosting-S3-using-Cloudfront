@@ -44,27 +44,4 @@ This project demonstrates how to host a secure and globally available static web
 - `AWS::Lambda::Permission` – Allow invocation by ALB
 - `AWS::EC2::SecurityGroup` – ALB access control
 
-### 🧪 Methodology
-
-#### ✅ Phase 1: Creating a Basic Functional Web Application
-- Launched an EC2 instance to host a Node.js-based web application.
-- Verified that the application was running and accessible via the instance's public IP.
-
-#### ✅ Phase 2: Creating and Configuring the Amazon RDS Database
-- Provisioned an Amazon RDS instance with MySQL engine.
-- Configured security groups to allow secure access from the EC2 instance.
-- Connected the web application to RDS using environment variables and verified database connectivity.
-
-#### ✅ Phase 3: Provisioning a New Instance for the Web Server & Migrating the Database
-- Created a new EC2 instance and replicated the application environment.
-- Migrated the database connection to the RDS instance and ensured consistent application behavior.
-- Applied proper IAM roles and security groups for the instance.
-
-#### ✅ Phase 4: Implementing High Availability and Scalability
-- Created an Application Load Balancer (ALB) to distribute incoming traffic.
-- Configured Auto Scaling Group with a custom AMI containing the application.
-- Ensured the setup used multiple Availability Zones for high availability.
-- Verified ALB integration and automatic scaling based on CPU utilization.
-
-
 
